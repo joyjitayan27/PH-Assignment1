@@ -5,6 +5,7 @@
     background-size: cover;
 
 
+
 }
 
 .header-tittle {
@@ -16,9 +17,9 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    padding-right: 240px;
+    padding-right: 235px;
     padding-top: 180px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .header-tittle-description {
@@ -44,8 +45,12 @@
     width: 160px;
     height: 64px;
     flex-shrink: 0;
-    margin-right: 250px;
+    margin-right: 238px;
     margin-top: 24px;
+    margin-bottom: 100px;
+    color: #FFF;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* 2nd-section-start */
