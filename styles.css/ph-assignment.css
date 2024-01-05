@@ -11,7 +11,7 @@
     /* width: 525px; */
     color: var(--Dark-01, #151414);
     text-align: right;
-    font-family: Work Sans;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 600;
@@ -81,7 +81,7 @@
 .second-section-description {
     width: 416px;
     color: var(--Dark-02, #444343);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -98,8 +98,48 @@
     line-height: 26px;
     /* 162.5% */
     list-style: none;
-    
+
 }
-li::before{
-    content:'✅';
+
+li::before {
+    content: '✅';
+}
+
+/* my-plans-styles */
+
+.my-plans-container{
+    display: flex;
+    gap: 100px;
+    padding-left: 400px;
+    margin-top: 80px;
+}
+.tittle {
+    text-align: center;
+    margin-top: 200px;
+    color: var(--Dark-01, #151414);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.my-plans-tittle {
+    color: var(--Dark-01, #151414);
+    
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.my-plans-description {
+    color: var(--Dark-03, #737272);
+    
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
